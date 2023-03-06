@@ -1,4 +1,4 @@
 # React Context - Template de Aula
 
 Template no codesandbox <br>
-https://codesandbox.io/s/pokedex-sem-context-x0oheh?file=/src/App.js
+https://codesandbox.io/s/estado-global-template-ykpd4w
