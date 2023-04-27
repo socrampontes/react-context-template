@@ -2,9 +2,12 @@ import Card from "../../components/Card/Card";
 import { Container } from "./PokedexPage.styled";
 import Header from "../../components/Header/Header";
 import { BASE_URL } from "../../constants/url";
+import { GlobalContext } from "../../contexts/GlobalContext";
+import { useContext } from "react";
 
-function PokedexPage(props) {
-  const { pokedex, removeFromPokedex } = props;
+function PokedexPage() {
+  const context = useContext(GlobalContext)
+  const { pokedex, removeFromPokedex } = context;
 
   return (
     <Container>
